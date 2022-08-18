@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+}
+
+.container{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+}
+/*small-container*/
+
+.small-container{
+    background-image: url(image/leave.jpg);
+    background-size: cover;
+    width: 30%;
+}
+
+.small-container1{
+    background-color: hsla(0, 12%, 5%, 0.205);
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.small-container1 img{
+    width: 20%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(Norse-Bold.otf);
+}
+
+.small-container1>span{
+    color: white;
+    font-family:"Norse-Bold";
+    font-weight: bolder;
+    font-size: 5em;
+}
+.small-container>.fig{
+    margin-top: 390px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.small-container>.fig>a{
+    color: white;
+    border-bottom: none;
+}
+
+/*form container*/
+
+.form-container{
+    padding: 100px 0;
+}
+
+.form-container>p{
+    width:100%;
+    margin-bottom: 40px;
+    margin-left: 26px;
+}
+
+.form{
+    background-color: #ffff;
+    padding: 10px 0;
+    margin-bottom: 40px;
+    box-shadow: 0px 2px 5px rgb(201, 201, 201);
+}
+
+h4{
+    margin-bottom:15px ;
+    margin-left:26px;
+}
+
+.form>div{
+    margin-left: 26px;
+    display:inline-flex;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3b3b3b;
+}
+label input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid #e5e7eb;
+}
+
+label input:focus{
+    border: 2px solid blue;
+}
+button{
+    margin-left: 70px;
+    padding: 10px 50px;
+    color: white;
+    background-color: #596d48;
+    border-radius: 2px;
+    box-shadow: rgb(81, 179, 125) ;
+}
+form>p{
+    margin-left:70px ;
+    margin-top: 20px;
+}
+form>p a{
+    color:#3b3b3b;
+}
